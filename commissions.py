@@ -22,7 +22,7 @@ def build_leaderboard(sales):
         comm = calculate_commission(sales[name])
         results.append([name, comm])
 
-    results.sort(key=lambda x: x[1], reverse=True) # lamba function to sort by commission amount, highest first
+    results.sort(key=lambda x: x[1], reverse=True) # lambda function to sort by commission amount, highest first
     return results
 
 
